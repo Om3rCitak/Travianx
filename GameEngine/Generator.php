@@ -9,7 +9,7 @@
 ##                                                                             ##
 #################################################################################
 
-class Generator {
+class GeneratorX {
 	
 	public function generateRandID(){
 		return md5($this->generateRandStr(16));
@@ -156,4 +156,4 @@ public function procMtime($time, $pref = 3) {
 	}
 	
 };
-$generator = new Generator;
+$generator = new GeneratorX;
